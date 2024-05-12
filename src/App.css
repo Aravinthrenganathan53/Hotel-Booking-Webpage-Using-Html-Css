@@ -1,0 +1,961 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Sacramento&display=swap');
+
+
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+}
+
+.nav {
+  display: flex;
+  margin-left: 35px;
+  margin-top: 10px;
+}
+
+.nav-left {
+  width: 805px;
+  height: 50px;
+  background-color: rgba(70, 145, 242, 1);
+  ;
+  color: white;
+  position: relative;
+  ;
+
+}
+
+#phone {
+
+  margin-top: 5px;
+  margin-right: 5px;
+  font-size: 15px;
+
+
+}
+
+#mail {
+
+  margin-right: 10px;
+  font-size: 20px;
+
+
+}
+
+#h51 {
+  margin-top: 11px;
+  margin-left: 276px;
+
+
+
+}
+
+
+#h52 {
+  /* margin-top:-33px; */
+  margin-left: 458px;
+  position: absolute;
+  top: 11px;
+  bottom: 15px;
+
+
+
+}
+
+.nav-right {
+  width: 837px;
+  height: 50px;
+  background-color: rgba(0, 0, 0, 1);
+  border-left: 20px solid rgba(70, 145, 242, 1);
+  ;
+  border-bottom: 50px solid transparent;
+  color: white;
+  display: flex;
+
+}
+
+.login-reg {
+  margin-left: 15px;
+  margin-top: 11px;
+  width: 125px;
+  margin-right: 10px;
+  display: flex;
+
+
+
+}
+
+#contact {
+  margin-left: 236px;
+  font-size: 30px;
+  color: rgba(70, 145, 242, 1);
+  width: 40px;
+  height: 40px;
+  border: 1px solid black;
+  background-color: white;
+  border-radius: 50%;
+  padding: 4px;
+  padding-top: 2px;
+  margin-bottom: 7px;
+  margin-top: 4px;
+
+
+}
+
+#col {
+  width: 1px;
+  height: 25px;
+  margin-top: 11px;
+  /* margin-right: 5px; */
+  border: 1px solid white;
+}
+
+#col-1 {
+  margin-left: 10px;
+  margin-top: 4px;
+  font-size: 20px;
+  color: rgba(70, 145, 242, 1);
+  width: 38px;
+  height: 38px;
+  border: 1px solid black;
+  border-radius: 50%;
+  background-color: white;
+  padding: 6px;
+
+}
+
+#col-2 {
+  margin-left: 25px;
+  margin-top: 4px;
+  font-size: 20px;
+  color: rgba(70, 145, 242, 1);
+  width: 38px;
+  height: 38px;
+  border: 1px solid black;
+  border-radius: 50%;
+  background-color: white;
+  padding: 6px;
+
+}
+
+#col-3 {
+  margin-left: 25px;
+  margin-top: 4px;
+  font-size: 20px;
+  color: rgba(70, 145, 242, 1);
+  width: 38px;
+  height: 38px;
+  border: 1px solid black;
+  border-radius: 50%;
+  background-color: white;
+  padding: 8px;
+  padding-top: 5px;
+}
+
+#col-4 {
+  margin-left: 25px;
+  margin-top: 4px;
+  font-size: 20px;
+  color: rgba(70, 145, 242, 1);
+  width: 38px;
+  height: 38px;
+  border: 1px solid black;
+  border-radius: 50%;
+  background-color: white;
+  padding: 6px;
+}
+
+.nav-2 {
+  width: 1110px;
+  height: 52px;
+  margin-left: 350px;
+  margin-top: 25px;
+  display: flex;
+  justify-content: space-between;
+
+
+}
+
+.nav-2>ul>li {
+  list-style-type: none;
+  display: inline-block;
+  margin-right: 25px;
+  font-weight: 600;
+  color: rgba(108, 108, 108, 1);
+}
+
+.nav-2>ul>li:hover {
+  color: rgba(70, 145, 242, 1);
+  cursor: pointer;
+
+}
+
+#travel {
+  color: rgba(70, 145, 242, 1);
+}
+
+#search {
+  width: 40px;
+  height: 40px;
+  font-size: 20px;
+  border: 3px solid rgba(70, 145, 242, 1);
+  border-radius: 50%;
+  padding: 6px;
+  padding-top: 5px;
+  color: rgba(70, 145, 242, 1);
+  background-color: white;
+}
+
+#btn {
+  width: 150px;
+  height: 45px;
+  padding: 10px;
+  border-radius: 45px;
+  border: none;
+  color: white;
+  font-weight: 400;
+  font-size: large;
+  background-color: rgba(70, 145, 242, 1);
+}
+
+#phone-2 {
+  margin-left: 10px;
+}
+
+.body-left {
+  width: 540px;
+  height: 364px;
+  margin-left: 370px;
+  margin-top: 200px;
+}
+
+.body-left>p {
+  font-size: 24px;
+  font-weight: 600;
+  font-family: "Sacramento", cursive;
+  letter-spacing: 2px;
+}
+
+.para1 {
+  font-weight: bolder;
+  font-size: 23px;
+}
+
+#travel1 {
+  color: rgba(70, 145, 242, 1);
+}
+
+.para2 {
+  font-size: small;
+  color: rgba(108, 108, 108, 1);
+  margin-top: 5px;
+}
+
+#btn2 {
+  width: 190px;
+  height: 45px;
+  background-color: rgba(70, 145, 242, 1);
+  padding: 9px;
+  border: none;
+  border-radius: 30px;
+  color: white;
+  font-weight: 500;
+  margin-top: 50px;
+
+}
+
+#bag {
+  margin-left: 14px;
+  font-size: 15px;
+}
+
+.body-rig {
+  display: flex;
+}
+
+.body-right {
+  margin-top: 200px;
+  width: 550px;
+  height: 250px;
+  object-fit: contain;
+  margin-left: 20px;
+}
+
+#img1 {
+  width: 255px;
+  height: 305px;
+  border-radius: 12px;
+
+}
+
+#img2 {
+  width: 255px;
+  height: 231px;
+  display: flex;
+  flex-direction: column;
+  margin-top: 10px;
+  border-radius: 12px;
+
+}
+
+#img3 {
+  width: 255px;
+  height: 405px;
+  float: right;
+  border-radius: 12px;
+  position: relative;
+  bottom: 500px;
+}
+
+#img4 {
+  position: relative;
+  bottom: 335px;
+  left: 185px;
+}
+
+.footer {
+  width: 1110px;
+  height: 120px;
+  margin-top: 250px;
+  margin-left: 355px;
+
+}
+
+.footer>input {
+  color: black;
+  width: 270px;
+  padding: 10px;
+  border-radius: 15px;
+  border: 1px solid rgba(70, 145, 242, 0.3);
+  font-weight: 600;
+  margin-left: 50px;
+
+}
+
+.footer>input::placeholder {
+  color: black;
+
+}
+
+#btn3 {
+  width: 95px;
+  height: 40px;
+  border: none;
+  border-radius: 18px;
+  background-color: rgba(70, 145, 242, 1);
+  color: white;
+  margin-left: 50px;
+  padding-bottom: 9px;
+
+
+
+}
+
+#btn3>img {
+  margin-left: 10px;
+  position: relative;
+  top: 7px;
+
+}
+
+.rectangle {
+  display: flex;
+}
+
+.rectangle>img {
+  position: relative;
+  bottom: 70px;
+}
+
+.footer1 {
+  width: 600px;
+  height: 512px;
+  background-color: white;
+  position: relative;
+  right: 300px;
+  top: 40px;
+  display: inline-block;
+
+}
+
+#rec1 {
+  position: relative;
+  bottom: 22px;
+  right: 30px;
+}
+
+#rec2 {
+  position: relative;
+  bottom: 340px;
+  right: 10px;
+}
+
+#rec3 {
+  position: relative;
+  bottom: 360px;
+  left: 350px;
+}
+
+#foot-right {
+
+  width: 540px;
+  height: 512px;
+  position: absolute;
+  left: 590px;
+  bottom: 1px;
+
+}
+
+#font2 {
+  font-family: "Sacramento", cursive;
+  letter-spacing: 2px;
+  color: rgba(70, 145, 242, 1);
+}
+
+#foot-right>h1 {
+  font-weight: bolder;
+}
+
+#p1 {
+  margin-top: 10px;
+}
+
+#p2 {
+  position: relative;
+  bottom: 20px;
+}
+
+#box1 {
+  font-weight: bold;
+}
+
+#btn4 {
+  margin-top: 30px;
+  width: 150px;
+  padding: 10px;
+  background-color: rgba(70, 145, 242, 1);
+  border-radius: 28px;
+  border: none;
+  color: white;
+  padding-bottom: 20px;
+}
+
+#btn4>img {
+  position: relative;
+  left: 10px;
+  top: 7px;
+
+}
+
+.page-2 {
+  margin-top: 20px;
+
+  width: 1600px;
+  height: 970px;
+  background-image: url("Rectangle 4.png");
+
+}
+
+#top {
+  position: relative;
+
+  top: 20px;
+
+}
+
+#top>h2 {
+  font-family: "Sacramento", cursive;
+  letter-spacing: 2px;
+  color: rgba(70, 145, 242, 1);
+  text-align: center;
+}
+
+#top>p {
+  font-size: 40px;
+  font-weight: 900;
+  text-align: center;
+}
+
+#tbody {
+  position: relative;
+  left: 300px;
+  top: 100px;
+  width: 1110px;
+  height: 512px;
+  display: flex;
+  column-gap: 40px;
+}
+
+.card {
+
+  width: 350px;
+  height: 502px;
+  padding: 10px;
+}
+
+.content1 {
+  margin-top: 5px;
+  font-weight: 600;
+}
+
+.card>p {
+  color: rgba(108, 108, 108, 1);
+  margin-top: 10px;
+
+}
+
+.content2>img {
+  padding-right: 10px;
+}
+
+#i1 {
+  position: relative;
+  top: 4px;
+}
+
+#i2 {
+  margin-left: 25px;
+  position: relative;
+  top: 5px;
+}
+
+.content3 {
+  font-weight: 600;
+
+  margin-top: 34px;
+
+}
+
+.content3>span {
+  font-size: 25px;
+}
+
+.content3>img {
+  margin-left: 160px;
+  position: absolute;
+  top: 380px;
+  font-size: small;
+}
+
+#arrow1 {
+  margin-left: 790px;
+  margin-top: 30px;
+}
+
+#rec4 {
+  position: absolute;
+  top: 2450px;
+  left: 1200px;
+}
+
+.tbody1 {
+  width: 1600px;
+  height: 455px;
+
+  display: flex;
+  column-gap: 10px;
+}
+
+.slide {
+  width: 255px;
+  height: 255px;
+  margin-top: 80px;
+  margin-left: 110px;
+  text-align: center;
+  border-radius: 15px;
+  box-shadow: 1px 1px 0px 0px rgb(104, 102, 102);
+  background-color: white;
+  z-index: 1;
+}
+
+.slide>p {
+  font-size: larger;
+  font-weight: 600;
+  margin-top: 15px;
+
+}
+
+.tbody2 {
+  /* background-color: brown; */
+  background-image: url("Rectangle 4.png");
+  width: 1800px;
+  height: 600px;
+  margin-top: 20px;
+}
+
+#best1 {
+  color: rgba(70, 145, 242, 1);
+  font-size: 20px;
+  font-family: "Sacramento", cursive;
+  letter-spacing: 2px;
+  margin-left: 700px;
+
+}
+
+#best2 {
+  font-size: 30px;
+  font-weight: 600;
+  margin-left: 570px;
+  margin-top: 20px;
+
+}
+
+#imgr {
+  width: 1000px;
+  height: 300px;
+  display: flex;
+  margin-left: 370px;
+  margin-top: 40px;
+
+}
+
+#p11 {
+  position: relative;
+  right: 1000px;
+  color: white;
+  top: 240px;
+  font-size: xx-large;
+
+}
+
+#p12 {
+  position: relative;
+  right: 850px;
+  color: white;
+  top: 240px;
+  font-size: xx-large;
+
+}
+
+#p13 {
+  position: relative;
+  right: 650px;
+  color: white;
+  top: 240px;
+  font-size: xx-large;
+
+}
+
+#p14 {
+  position: relative;
+  right: 550px;
+  color: white;
+  top: 240px;
+  font-size: xx-large;
+
+}
+
+#ar1 {
+  margin-top: 25px;
+  margin-left: 800px;
+}
+
+#ft1 {
+  width: 500px;
+  height: 80px;
+  position: relative;
+  left: 600px;
+  bottom: 600px;
+  text-align: center;
+}
+
+#ft1>p {
+  font-size: 25px;
+  font-family: "Sacramento", cursive;
+  letter-spacing: 2px;
+  color: rgba(70, 145, 242, 1);
+
+}
+
+#ft2 {
+  width: 1110px;
+  height: 460px;
+  position: relative;
+  left: 250px;
+  bottom: 500px;
+
+}
+
+#i3 {
+  margin-left: 25px;
+}
+
+#passage {
+  width: 400px;
+  height: 500px;
+  position: relative;
+  left: 720px;
+  bottom: 450px;
+}
+
+#passage>p {
+  margin-top: 10px;
+  color: rgba(108, 108, 108, 1);
+
+}
+
+#i4 {
+  margin-top: 100px;
+}
+
+#page3 {
+  width: 1600px;
+  height: 500px;
+  background-image: url("Rectangle 10.png");
+  position: relative;
+  bottom: 420px;
+
+}
+
+#page31 {
+  width: 760px;
+  height: 300px;
+  position: relative;
+  left: 450px;
+  top: 100px;
+
+
+}
+
+#page32>h1 {
+  color: white;
+  text-align: center;
+}
+
+#page32>p {
+  color: white;
+  text-align: center;
+  margin-top: 10px;
+
+}
+
+#btn7 {
+  width: 270px;
+  margin-left: 250px;
+  margin-top: 60px;
+  padding: 20px;
+  border-radius: 65px;
+  border: none;
+  font-size: larger;
+  color: rgba(70, 145, 242, 1);
+  font-weight: 600;
+  padding-bottom: 30px;
+
+}
+
+#i5 {
+  position: relative;
+  left: 20px;
+  top: 5px;
+}
+
+#page4 {
+
+  position: relative;
+  bottom: 300px;
+  left: 650px;
+  width: 400px;
+  text-align: center;
+
+}
+
+#page4>h2 {
+  font-family: "Sacramento", cursive;
+  letter-spacing: 2px;
+  color: rgba(70, 145, 242, 1);
+}
+
+#page4>h1 {
+  font-weight: 900;
+}
+
+#rec11 {
+  position: relative;
+  left: 1200px;
+  bottom: 320px;
+}
+
+#page5 {
+  width: 600px;
+  height: 450px;
+  display: flex;
+  column-gap: 27px;
+  position: relative;
+  left: 350px;
+  bottom: 640px;
+}
+
+.profile>p {
+  margin-top: 10px;
+}
+
+.profile>a {
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 20px;
+  color: rgba(70, 145, 242, 1);
+}
+
+#page6 {
+  width: 1100px;
+  height: 180px;
+  border-radius: 20px;
+  background-color: rgba(70, 145, 242, 1);
+  position: relative;
+  left: 370px;
+  bottom: 510px;
+
+}
+
+.page61 {
+  width: 300px;
+  height: 200px;
+  position: relative;
+  left: 30px;
+  top: 45px;
+}
+
+.page61>h1 {
+  color: white;
+}
+
+#text12 {
+  width: 450px;
+  padding: 10px;
+  border-radius: 15px;
+  position: relative;
+  left: 370px;
+  bottom: 65px;
+  border: none;
+}
+
+#text12::placeholder {
+  color: rgba(70, 145, 242, 1);
+
+}
+
+#btn12 {
+  position: relative;
+  left: 860px;
+  bottom: 100px;
+  width: 100px;
+  padding: 10px;
+  border-radius: 15px;
+  color: rgba(70, 145, 242, 1);
+  border: none;
+}
+
+#page7 {
+  width: 1300px;
+  height: 450px;
+  position: relative;
+  left: 340px;
+  bottom: 470px;
+  display: flex;
+  column-gap: 40px;
+}
+
+#page71 {
+  width: 255px;
+  height: 255px;
+  margin-top: 100px;
+  margin-left: 5px;
+
+}
+
+#page72 {
+  width: 255px;
+  height: 255px;
+  margin-top: 100px;
+  margin-left: 20px;
+}
+
+#page73 {
+  width: 295px;
+  height: 255px;
+  margin-top: 100px;
+  margin-left: 30px;
+}
+
+#page74 {
+  width: 420px;
+  height: 255px;
+  margin-top: 100px;
+  margin-left: 10px;
+}
+
+#page71>h1>span {
+  color: rgba(70, 145, 242, 1);
+}
+
+#s-icon {
+  display: flex;
+  column-gap: 15px;
+}
+
+#page72 {
+  width: 110px;
+  height: 270px;
+  display: flex;
+  flex-direction: column;
+  row-gap: 10px;
+}
+
+#c1 {
+  display: flex;
+  column-gap: 10px;
+  row-gap: 10px;
+  margin-top: 20px;
+}
+
+#c2 {
+  display: flex;
+  column-gap: 10px;
+  row-gap: 10px;
+  margin-top: 20px;
+}
+
+#c3 {
+  display: flex;
+  column-gap: 15px;
+  row-gap: 10px;
+  margin-top: 20px;
+  word-wrap: break-word;
+
+}
+
+#c3>img {
+  width: 30px;
+  height: 30px;
+}
+
+#page741 {
+  display: flex;
+  flex-wrap: wrap;
+  column-gap: 10px;
+  row-gap: 10px;
+  margin-top: 15px;
+}
+
+#page8 {
+  width: 1600px;
+  height: 50px;
+  background-color: rgba(70, 145, 242, 1);
+  position: relative;
+  left: 200px;
+  bottom: 400px;
+}
+
+#page8>h3 {
+  text-align: center;
+  font-weight: 600;
+  color: white;
+  position: relative;
+  top: 12px;
+}
